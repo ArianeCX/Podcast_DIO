@@ -1,33 +1,3 @@
-<p align="center">
-<img 
-    src="./assets/cover.png"
-    width="300"
-/>
-</p>
-
-<p align="center">
-<a href="https://dio.me/">
-    <img 
-        src="https://img.shields.io/badge/DIO-Code_The_Future-28DA77?logo=youtube" 
-        alt="DIO - Code The Future">
-</a>
-<a href="https://dio.me/">
-<img 
-    src="https://img.shields.io/badge/🔴_LIVE_CODE-FF5E72" 
-    alt="🔴 LIVE CODE">
-</a>
-</p>
-
-<p align="center">
-    preview do podcast
-</p>
-
-<div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
-</div>
-
-# Projeto Podcast Gerado por I.A.s
-
 
  > ℹ️ **NOTE:** 
 
@@ -45,6 +15,36 @@ Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
 ## ✨ Como foi feito ?
 
 - Roteiro gerado via chatgpt
+
+Prompt para título:
+Você é um roteirista de podcast, e vamos criar um podcast sobre a Caixa Economica Federal, focado em produtos para governo e eu gostaria de uma ajuda sua para criar 5 sugestões 
+de nomes criativos para um podcast cujo publico alvo são municipios e estados
+O podcast vai falar sobre dicas e novidades sobre os produtos da Caixa economica federal para governos
+{REGRAS}
+- O nome deve ser enxuto, um nome e um subtítulo
+- O nome deve conter alguma palavra forte que remeta a CAIXA 
+{REGRAS NEGATIVAS}
+- Não quero que o título contenha palavras em inglês
+- Não quero fazer menção a partidos políticos 
+
+Prompt para Roteiro:
+Você é um roteirista de podcast, e vamos criar um  roteiro de um podcast sobre a CAIXA, focado em produtos para governos cujo o nome é "Conexão Caixa - Serviços e ideias para estados e municípios." e tem foco em novidades e dicas a respeito destes produtos,  com o público alvo de estados e municípios.
+o formato do roteiro deve ser
+[INTRODUÇÃO]
+[CURIOSIDADE 1]
+[FINALIZAÇÃO]
+{REGRAS}
+- no bloco [INTRODUÇÃO] substitua por uma introdução citando diversos produtos que a caixa oferece para os governos 
+- no bloco [CURIOSIDADE 1] substitua por uma curiosidade a respeito de um destes produtos 
+- no bloco [FINALIZAÇÃO] substitua por uma despedida cool com o final 'E esse foi o Conexão Caixa desta semana. Até a próxima' 
+- use termos de fácil explicação
+- O podcast vai ser apresentado somente por uma pessoa, a Conecta 
+- O podcast deve ser curto
+{REGRAS NEGATIVAS}
+- Não use muitos termos técnicos
+- Não ultrapasse 4 minutos de duração
+
+
 - Audio gerado pela elevenLabs
 - Midjourney Para gerar capas
 - Capcut para tratar aúdio e adicionar sons de fundo
@@ -56,44 +56,4 @@ Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
 - [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
 
 
-## 🛠️ Instruções de execução
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
-
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
-
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
-
----
-
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
